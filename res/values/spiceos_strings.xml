@@ -15,4 +15,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="spiceos_version">SpiceOS Version</string>
+
+    <!-- SpiceOS Settings -->
+    <string name="spiceos_settings_dash_title">SpiceOS Settings</string>
+    <string name="spiceos_settings_summary">Our Farmland</string>
+
 </resources>
