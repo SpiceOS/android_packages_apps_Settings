@@ -20,4 +20,7 @@
     <string name="spiceos_settings_dash_title">SpiceOS Settings</string>
     <string name="spiceos_settings_summary">Our Farmland</string>
 
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+
 </resources>
