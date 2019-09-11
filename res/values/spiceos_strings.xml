@@ -24,4 +24,14 @@
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 
+    <!-- About phone screen, SpiceOS version -->
+    <string name="spiceos_version">SpiceOS version</string>
+    <string name="spiceos_version_default">Unknown</string>
+    <string name="keywords_spiceos_version">SpiceOS version, SpiceOS version</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">build date, build info</string>
+
 </resources>
