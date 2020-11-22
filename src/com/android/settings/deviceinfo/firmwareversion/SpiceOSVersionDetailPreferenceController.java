@@ -62,8 +62,8 @@ public class SpiceOSVersionDetailPreferenceController extends BasePreferenceCont
 
     @Override
     public CharSequence getSummary() {
-	String[] spiceosVer = SystemProperties.get(KEY_SPICEOS_VERSION_PROP);
-	if (!spiceosVer.isEmpty())
+	String spiceosVer = SystemProperties.get(KEY_SPICEOS_VERSION_PROP);
+	if (spiceosVer != "")
 	    return spiceosVer;
 	else
             return mContext.getString(R.string.unknown);
