@@ -46,4 +46,7 @@
     <string name="spiceos_settings_dash_title">SpiceOS Settings</string>
     <string name="spiceos_settings_summary">Our Farmland</string>
 
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
+
 </resources>
