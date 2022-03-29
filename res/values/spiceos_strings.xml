@@ -43,8 +43,8 @@
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
 
     <!-- SpiceOS Settings -->
-    <string name="spiceos_settings_dash_title">SpiceOS Settings</string>
-    <string name="spiceos_settings_summary">Our Farmland</string>
+    <string name="spiceos_settings_dash_title">The Brewery</string>
+    <string name="spiceos_settings_summary">A place where beer is made commercially</string>
 
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Minimum refresh rate</string>
