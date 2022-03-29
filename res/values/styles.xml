@@ -993,4 +993,9 @@
         <item name="android:textColor">@color/primary_dark_material_light</item>
         <item name="android:lineSpacingMultiplier">1.2</item>
     </style>
+
+    <style name="TextAppearance.HomepagePreferenceTitle" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textSize">22sp</item>
+    </style>
+
 </resources>
