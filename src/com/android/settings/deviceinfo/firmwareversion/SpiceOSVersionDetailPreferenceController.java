@@ -33,7 +33,7 @@ public class SpiceOSVersionDetailPreferenceController extends BasePreferenceCont
 
     private static final String TAG = "SpiceOSVersionDialogCtrl";
 
-    private static final String KEY_SPICEOS_VERSION_PROP = "ro.spiceos.version";
+    private static final String KEY_SPICEOS_VERSION_PROP = "ro.spiceos.build.version";
 
     public SpiceOSVersionDetailPreferenceController(Context context, String key) {
         super(context, key);
