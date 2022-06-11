@@ -24,14 +24,15 @@
     <!-- SpiceOS logo -->
     <PreferenceScreen
         android:key="spiceos_lottie_animation"
-        android:layout="@layout/spiceos_lottie_animation"
-        android:selectable="false" />
+        android:layout="@layout/spiceos_logo_card"
+        android:selectable="false"/>
 
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
         android:title="@string/firmware_version"
         android:summary="@string/summary_placeholder"
+        android:icon="@drawable/ic_android_ver"
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
@@ -41,6 +42,7 @@
         android:key="spiceos_version"
         android:title="@string/spiceos_version"
         android:summary="@string/summary_placeholder"
+        android:icon="@drawable/ic_leaf"        
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SpiceOSVersionDetailPreferenceController"/>
@@ -49,6 +51,7 @@
     <Preference
         android:key="security_key"
         android:title="@string/security_patch"
+        android:icon="@drawable/ic_sec_patch"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
 
@@ -61,20 +64,22 @@
         settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/ -->
 
     <!-- Baseband -->
-    <Preference
+<!--    <Preference
         android:key="base_band"
         android:title="@string/baseband_version"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
-
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"
+        settings:layout="@layout/top_level_preference_middle"/>
+-->
     <!-- Kernel -->
     <Preference
         android:key="kernel_version"
         android:title="@string/kernel_version"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
+        android:icon="@drawable/ic_kernel"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
 
@@ -84,6 +89,7 @@
         android:title="@string/build_number"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
+        android:icon="@drawable/ic_build_number_hash"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
 
@@ -93,6 +99,7 @@
         android:title="@string/selinux_status"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
+        android:icon="@drawable/ic_selnx"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"/>
 
