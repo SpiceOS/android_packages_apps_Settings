@@ -62,4 +62,8 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- SpiceOS Settings -->
+    <string name="spiceos_settings_dash_title">The Brewery</string>
+    <string name="spiceos_settings_summary">Our Farmland</string>
+
 </resources>
